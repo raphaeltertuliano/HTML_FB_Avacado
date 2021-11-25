@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Formulários em HTML</title>
+</head>
+<body>
+<form action="email@email.com" method="get">
+<p><font face="Calibri" size="4"><b>Nome: </b><input type=text name="nome" size="20" maxlenght="50">
+<p><b>Nº do cartão: </b><input type=text name="cartão" size="16"></p>
+<p><b>Senha: </b><input type=password name="num_cartao" size="6"></p>
+<p><b>Selecione a bandeira do cartão de crédito: </b><br>
+<input type=radio name="bandeira" checked>VISA<br>
+<input type=radio name="bandeira">MASTERCARD</p>
+<p><b>Selecione o horário de entrega: </b><br>
+<input type=checkbox name="horario1">8h às 12h<br>
+<input type=checkbox name="horario2">13h às 15h<br>
+<input type=checkbox name="horario3">16h às 18h</p>
+<p><b>Endereço: </b><input type=text name="end" size="30">
+<p><b>Referência: </b><textarea name="ref" rows="2" cols="40"></textarea>
+<p><input type=submit value="ENVIAR"> <input type=reset value="LIMPAR">
+<input type=hidden name="cpf" value="verdadeiro"
+</form>
+</body>
+</html>
